@@ -1,0 +1,14 @@
+<div class="p-3 mb-2 bg-success text-white">
+  
+  <div class="head">
+    <h1 style="text-align: center">MY PAGE</h1>
+  </div>
+
+  <!-- navigation buttons for sign in and sign up -->
+  
+  <nav class="nav">
+    <button *ngIf=view class="react" style="color: mediumblue" (click)="page1()">LOGIN </button>
+    <!-- <button *ngIf=view1 class="temp" style="color: mediumblue" (click)="page2()">SIGN UP</button>-->
+  </nav>
+</div>
+<router-outlet></router-outlet>
